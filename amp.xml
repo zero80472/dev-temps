@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>amp</Name>
+  <Name>Bjonness406-AMP</Name>
   <Description>Application Management Panel from CubeCoders.com.
   </Description>
   <Registry>https://hub.docker.com/r/othrayte/amp/~/dockerfile/</Registry>
