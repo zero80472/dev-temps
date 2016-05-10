@@ -29,5 +29,5 @@
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <Banner></Banner>
   <Icon></Icon>
-  <ExtraParams>--Licence-key xxx-x-x-x-x-x</ExtraParams>
+  <ExtraParams>--Licence-key xxx-xxxxx-xxxxxx-xxxxxx</ExtraParams>
 </Container>
