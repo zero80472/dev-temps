@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>Bjonness406-AMP</Name>
+  <Description>Application Management Panel from CubeCoders.com.
+  </Description>
+  <Registry>https://hub.docker.com/r/othrayte/amp/~/dockerfile/</Registry>
+  <Repository>othrayte/amp</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8100</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/amp/</HostDir>
+      <ContainerDir>/ampdata</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+  <ExtraParams>--Licence-key xxx-xxxxx-xxxxxx-xxxxxx</ExtraParams>
+</Container>
