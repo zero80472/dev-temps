@@ -8,7 +8,8 @@
    [b]Setup:[/b][br]
    Add your licenece key in the Environment Variable "LICENCE" (Advanced View)[br]
    If you want, you can change the module from ADS, to something else by editing the Environment Variable "MODULE" from "ADS" to something else.[br]
-   If you start other instances in the docker (minecraft server for example), remember to add the port to the port mappings section. 
+   If you start other instances in the docker (minecraft server for example), remember to add the port to the port mappings section.[br][br]
+   Thanks to othrayte for creating the docker! 
   </Description>
   <Support>https://lime-technology.com/forum/index.php?topic=48798.0</Support>
   <Registry>https://hub.docker.com/r/othrayte/amp/~/dockerfile/</Registry>
