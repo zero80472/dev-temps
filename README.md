@@ -1,3 +1,3 @@
 # Dev-Templates
 
-Use at your own risk
+Use at your own risk!
