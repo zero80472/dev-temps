@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>Bjonness406-AMP</Name>
-  <Description>Application Management Panel from CubeCoders.com.
-  </Description>
+  <Description>Application Management Panel from CubeCoders.com.&#13;
+</Description>
   <Registry>https://hub.docker.com/r/othrayte/amp/~/dockerfile/</Registry>
-  <Repository>othrayte/amp</Repository>
+  <Repository>othrayte/amp:develop</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Environment/>
+  <Environment>
+    <Variable>
+      <Name>LICENCE</Name>
+      <Value>your licence key here</Value>
+    </Variable>
+    <Variable>
+      <Name>MODULE</Name>
+      <Value>ADS</Value>
+    </Variable>
+  </Environment>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>8100</HostPort>
+        <HostPort>8080</HostPort>
         <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
@@ -20,7 +29,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/amp/</HostDir>
+      <HostDir>path to config</HostDir>
       <ContainerDir>/ampdata</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -29,5 +38,5 @@
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <Banner></Banner>
   <Icon></Icon>
-  <ExtraParams>--Licence-key xxx-xxxxx-xxxxxx-xxxxxx</ExtraParams>
+  <ExtraParams></ExtraParams>
 </Container>
