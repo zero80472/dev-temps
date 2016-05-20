@@ -11,6 +11,9 @@
    If you start other instances in the docker (minecraft server for example), remember to add the port to the port mappings section.[br][br]
    Thanks to othrayte for creating the docker! 
   </Description>
+  <Overview>
+  AMP is short for Application Management Panel and is a next-generation server administration software.  It's a complete, fully featured API for deployment, monitoring and configuration of arbitrary applications with a sleek, responsive, and entirely optional user interface on top.
+  </Overview>
   <Support>https://lime-technology.com/forum/index.php?topic=48798.0</Support>
   <Registry>https://hub.docker.com/r/othrayte/amp/~/dockerfile/</Registry>
   <Repository>othrayte/amp:develop</Repository>
