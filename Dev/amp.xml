@@ -40,7 +40,7 @@
     </Publish>
   </Networking>
   <Data>
-    <Volume type="appdata">
+    <Volume type=“appdata”>
       <HostDir>path to config</HostDir>
       <ContainerDir>/ampdata</ContainerDir>
       <Mode>rw</Mode>
