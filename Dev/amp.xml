@@ -11,7 +11,7 @@
    [b]/ampdata[/b] is where amp store it's configuration files.[br][br]&#xD;
    [b]Setup:[/b][br]&#xD;
    Add your licenece key in the Environment Variable "LICENCE" (Advanced View)[br]&#xD;
-   If you want, you can change the module from ADS, to something else by editing the Environment Variable "MODULE" from "ADS" to something else.[br]&#xD;
+   If you want, you can change the module from ADS, to something else by editing the Environment Variable "MODULE" from "ADS" to another module.[br]&#xD;
    If you start other instances in the docker (minecraft server for example), remember to add the port to the port mappings section.[br][br]&#xD;
    Thanks to othrayte for creating the docker! &#xD;
   </Overview>
@@ -25,7 +25,7 @@
    [b]/ampdata[/b] is where amp store it's configuration files.[br][br]&#xD;
    [b]Setup:[/b][br]&#xD;
    Add your licenece key in the Environment Variable "LICENCE" (Advanced View)[br]&#xD;
-   If you want, you can change the module from ADS, to something else by editing the Environment Variable "MODULE" from "ADS" to something else.[br]&#xD;
+   If you want, you can change the module from ADS, to something else by editing the Environment Variable "MODULE" from "ADS" to another module.[br]&#xD;
    If you start other instances in the docker (minecraft server for example), remember to add the port to the port mappings section.[br][br]&#xD;
    Thanks to othrayte for creating the docker! &#xD;
   </Description>
