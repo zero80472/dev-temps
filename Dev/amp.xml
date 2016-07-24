@@ -1,34 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Container>
-  <Beta>False</Beta>
-  <Category>Network:Other Other:</Category>
+<?xml version="1.0"?>
+<Container version="2">
+  <Date>2016-05-20</Date> 
   <Name>Bjonness406-AMP</Name>
-  <Description>AMP is an Application Management Panel from CubeCoders[br][br]
-   [b]/ampdata[/b] is where amp store it's configuration files.[br][br]
-   [b]Setup:[/b][br]
-   Add your licenece key in the Environment Variable "LICENCE" (Advanced View)[br]
-   If you want, you can change the module from ADS, to something else by editing the Environment Variable "MODULE" from "ADS" to something else.[br]
-   If you start other instances in the docker (minecraft server for example), remember to add the port to the port mappings section.[br][br]
-   Thanks to othrayte for creating the docker! 
-  </Description>
-  <Overview>
-  AMP is short for Application Management Panel and is a next-generation server administration software.  It's a complete, fully featured API for deployment, monitoring and configuration of arbitrary applications with a sleek, responsive, and entirely optional user interface on top.
-  </Overview>
-  <Support>https://lime-technology.com/forum/index.php?topic=48798.0</Support>
-  <Registry>https://hub.docker.com/r/othrayte/amp/~/dockerfile/</Registry>
   <Repository>othrayte/amp:develop</Repository>
-  <BindTime>true</BindTime>
+  <Registry>https://hub.docker.com/r/othrayte/amp/~/dockerfile/</Registry>
+  <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Environment>
-    <Variable>
-      <Name>LICENCE</Name>
-      <Value>your licence key here</Value>
-    </Variable>
-    <Variable>
-      <Name>MODULE</Name>
-      <Value>ADS</Value>
-    </Variable>
-  </Environment>
+  <Support>https://lime-technology.com/forum/index.php?topic=48798.0</Support>
+  <Overview>AMP is an Application Management Panel from CubeCoders[br][br]&#xD;
+   [b]/ampdata[/b] is where amp store it's configuration files.[br][br]&#xD;
+   [b]Setup:[/b][br]&#xD;
+   Add your licenece key in the Environment Variable "LICENCE" (Advanced View)[br]&#xD;
+   If you want, you can change the module from ADS, to something else by editing the Environment Variable "MODULE" from "ADS" to something else.[br]&#xD;
+   If you start other instances in the docker (minecraft server for example), remember to add the port to the port mappings section.[br][br]&#xD;
+   Thanks to othrayte for creating the docker! &#xD;
+  </Overview>
+  <Category>Other: Network:Other Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/bjonness406/Dev-Templates/master/Dev/amp.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Icon/AMP.png</Icon>
+  <ExtraParams/>
+  <DateInstalled>1469363859</DateInstalled>
+  <Description>AMP is an Application Management Panel from CubeCoders[br][br]&#xD;
+   [b]/ampdata[/b] is where amp store it's configuration files.[br][br]&#xD;
+   [b]Setup:[/b][br]&#xD;
+   Add your licenece key in the Environment Variable "LICENCE" (Advanced View)[br]&#xD;
+   If you want, you can change the module from ADS, to something else by editing the Environment Variable "MODULE" from "ADS" to something else.[br]&#xD;
+   If you start other instances in the docker (minecraft server for example), remember to add the port to the port mappings section.[br][br]&#xD;
+   Thanks to othrayte for creating the docker! &#xD;
+  </Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -40,16 +40,26 @@
     </Publish>
   </Networking>
   <Data>
-    <Volume type="appdata">
+    <Volume>
       <HostDir>path to config</HostDir>
       <ContainerDir>/ampdata</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Version></Version>
-  <WebUI>http://[IP]:[PORT:8080]</WebUI>
-  <Banner></Banner>
-  <Icon></Icon>
-  <ExtraParams></ExtraParams>
-  <Date>2016-05-20</Date> 
+  <Environment>
+    <Variable>
+      <Value>your licence key here</Value>
+      <Name>LICENCE</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>ADS</Value>
+      <Name>MODULE</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Config Name="Config for AMP" Target="/ampdata" Default="path to config" Mode="rw" Description="Container Path: /ampdata" Type="Path" Display="always" Required="true" Mask="false">path to config</Config>
+  <Config Name="Licence key" Target="LICENCE" Default="your licence key here" Mode="" Description="Container Variable: LICENCE" Type="Variable" Display="always" Required="true" Mask="false">your licence key here</Config>
+  <Config Name="WebUI Port" Target="8080" Default="8080" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always-hide" Required="true" Mask="false">8080</Config>
+  <Config Name="AMP Module" Target="MODULE" Default="ADS" Mode="" Description="Container Variable: MODULE" Type="Variable" Display="always-hide" Required="true" Mask="false">ADS</Config>
 </Container>
