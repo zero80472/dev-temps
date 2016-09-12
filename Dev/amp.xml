@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Date>2016-05-20</Date> 
-  <Name>Bjonness406-AMP</Name>
-  <Repository>othrayte/amp:develop</Repository>
+  <Name>JRE8-AMP</Name>
+  <Repository>othrayte/amp:jre8</Repository>
   <Registry>https://hub.docker.com/r/othrayte/amp/~/dockerfile/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
