@@ -2,8 +2,8 @@
 <Container version="2">
   <Date>2016-05-20</Date> 
   <Name>JRE8-AMP</Name>
-  <Repository>othrayte/amp:jre8</Repository>
-  <Registry>https://hub.docker.com/r/othrayte/amp/~/dockerfile/</Registry>
+  <Repository>ozero80473/docker-cc-amp</Repository>
+  <Registry>https://hub.docker.com/r/zero80473/docker-cc-amp/~/dockerfile/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://lime-technology.com/forum/index.php?topic=48798.0</Support>
