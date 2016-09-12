@@ -2,7 +2,7 @@
 <Container version="2">
   <Date>2016-05-20</Date> 
   <Name>JRE8-AMP</Name>
-  <Repository>zero80473/docker-cc-amp</Repository>
+  <Repository>zero80473/docker-cc-amp:jre8</Repository>
   <Registry>https://hub.docker.com/r/zero80473/docker-cc-amp/~/dockerfile/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
