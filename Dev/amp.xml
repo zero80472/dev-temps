@@ -17,7 +17,7 @@
   </Overview>
   <Category>Other: Network:Other Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/bjonness406/Dev-Templates/master/Dev/amp.xml</TemplateURL>
+  <TemplateURL>https://github.com/zero80472/dev-temps/blob/master/Dev/amp.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Icon/AMP.png</Icon>
   <ExtraParams/>
   <Description>AMP is an Application Management Panel from CubeCoders[br][br]&#xD;
